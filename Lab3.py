@@ -1,5 +1,6 @@
 import random 
 
+#create a list of students 
 def studentList():
     
     list = []
@@ -7,6 +8,8 @@ def studentList():
         id = random.randint(1,10**9)
         list.append(id)
     return list
+
+#Takes a list of IDs and return random group
 def randomGroup(list):
     groupList = []
     i = 0 
